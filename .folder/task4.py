@@ -3,3 +3,21 @@
 # *Пример:*
 # 3 2 4 -> yes
 # 3 2 1 -> no
+print("Введите значение длины ")
+n = int(input())
+print("Введите значение ширины ")
+m = int(input())
+print("Сколько долек хотите взять?")
+k = int(input())
+
+    
+if (k % m == 0 or k % n == 0) and k < m*n :
+    print("На! Угощайся!")
+else :
+    print("Поделить не получится")
+        
+# if (k % 2 != 0 and m % 2 != 0 and k % m == 0 and k < n*m) or (k % 2 != 0 and n % 2 != 0 and k % n == 0 and k < n*m):
+#     print("На! Угощайся!")
+# elif (k % 2 == 0 and m % 2 == 0 and k % m == 0 and k < n*m) or (k % 2 == 0 and n % 2 == 0 and k % n == 0 and k < n*m):
+#     print("На! Угощайся!")
+# else:
